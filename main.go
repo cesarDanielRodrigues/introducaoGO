@@ -6,9 +6,10 @@ import (
 
 func main() {
 
-	var idade int = 30
-	var contador int32 = 2
-	var indice int8 = 1
+	var pi float64 = 3.14
+	var raio float64 = 2.5
+	var area = pi * raio * raio
 
-	fmt.Println("Idade:", idade)
+
+	fmt.Println("Área do círculo:", area)
 }
