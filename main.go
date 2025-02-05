@@ -2,19 +2,13 @@ package main
 
 import (
 	"fmt"
-
-	// mt "github.com/cesarDanielRodrigues/introducaoGO/meet"
 )
 
-const teste string = "hello world"
+func main() {
 
-func main(){
-	// mt.SayHello()
-	// mt.Say("teste")
+	var idade int = 30
+	var contador int32 = 2
+	var indice int8 = 1
 
-	// var teste string = "teste"
-	// var teste string
-	// teste1 := "teste"
-
-	fmt.Println(teste)
+	fmt.Println("Idade:", idade)
 }
