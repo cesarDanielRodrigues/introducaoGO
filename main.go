@@ -6,10 +6,9 @@ import (
 
 func main() {
 
-	var pi float64 = 3.14
-	var raio float64 = 2.5
-	var area = pi * raio * raio
+	var maior bool = 10 > 5
+	var menor bool = 10 < 5
 
-
-	fmt.Println("Área do círculo:", area)
+	fmt.Println("10 é maior que 5?", maior)
+	fmt.Println("10 é menor que 5?", menor)
 }
