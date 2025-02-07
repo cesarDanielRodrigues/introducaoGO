@@ -2,13 +2,17 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
 
-	var maior bool = 10 > 5
-	var menor bool = 10 < 5
+	var teste1 string = "teste 1 "
+	var teste2 string = "teste 2"
 
-	fmt.Println("10 é maior que 5?", maior)
-	fmt.Println("10 é menor que 5?", menor)
+	var juntar string = teste1+teste2
+	fmt.Println(teste1)
+	fmt.Println(strings.ToUpper(juntar))
+	fmt.Println(strings.Contains(juntar,"maico"))
+
 }
